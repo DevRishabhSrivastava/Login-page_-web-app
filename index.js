@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit",(event)=>{
 
 firebase.auth().onAuthStateChanged((user)=>{
     if(user){
-        location.replace("Wlc.html")
+        location.replace("wlc.html")
     }
 })
 function login(){
